@@ -1,4 +1,4 @@
-# Installing an Unpacked Chrome Extension
+# Installing this app.
 
 This guide explains how to enable **Development Mode** in Google Chrome and install an **unpacked** extension. This is useful when testing an extension during development.
 
@@ -36,3 +36,6 @@ This guide explains how to enable **Development Mode** in Google Chrome and inst
 ---
 
 Congratulations! You have successfully installed an **unpacked** Chrome extension in **Developer Mode**.
+
+
+Note: I am not the creator of this extention just wanted to fix some url's
