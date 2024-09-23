@@ -1,0 +1,22 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "name": "PS Faker",
+    "description": "Pretend to redeem Google Play cards.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://play.google.com/store/paymentmethods",
+                "https://play.google.com/store/games?code",
+                "https://play.google.com/store/games?device=windows&code"
+            ],
+            "js": [
+                "data/main.js"
+            ],
+            "css": [
+                "data/main.css"
+            ]
+        }
+    ]
+}
