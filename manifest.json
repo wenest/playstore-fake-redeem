@@ -8,7 +8,8 @@
         {
             "matches": [
                 "https://play.google.com/store/paymentmethods",
-                "https://play.google.com/store/games?code"
+                "https://play.google.com/store/games?code",
+                "https://play.google.com/store/games?device=windows&code"
             ],
             "js": [
                 "googlePlay/main.js"
